@@ -1,14 +1,23 @@
 .navbar {
-  background-color: #353030;
-  padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #0a154c;
 }
 
 .navbar-title {
-  color: #fbf1f1;
-  font-size: 24px;
   margin: 0;
-  padding: 0;
+  color: #fff;
+}
+
+.logout-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.logout-icon {
+  font-size: 1.5rem;
+  color: #fff;
 }

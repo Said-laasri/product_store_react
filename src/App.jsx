@@ -8,7 +8,7 @@ const App = () => {
   const navigate = useNavigate();
   useEffect(() => {
     if (localStorage.getItem("token")) {
-      navigate("/chat");
+      navigate("/product");
     } else {
       navigate("/");
     }
